@@ -1,0 +1,11 @@
+div.content {width: 1100px; margin: auto;}
+div.box {height: 300px;}
+div.inside {margin: 15px; display: flex;}
+div.odd {background-color: #DCF4F4; margin-top: 20px; border-radius: 10px;}
+div.even {background-color: #F0EAEA; margin-top: 20px; border-radius: 10px;}
+div.picture-column{flex: 35%; justify-content: center; align-items: center; display: grid;}
+div.text-column{flex: 65%;}
+h1 {font: normal bold 36px Courier New,sans-serif; margin: 0px;}
+h4 {font: normal normal 24px Courier New,monospace; margin: 0px;}
+ul {list-style-type: none;}
+li {margin-bottom: 12px; font-family: Arial, Helvetica , sans-serif; font-size: 16px;}
