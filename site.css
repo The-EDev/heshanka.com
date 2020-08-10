@@ -1,15 +1,20 @@
 div.content {width: 1100px; margin: auto;}
-div.box {height: 300px;display: flex; padding: 15px}
-div.odd {background-color: #DCF4F4; margin-top: 20px; border-radius: 10px; justify-content: center; display: flex;}
-div.even {background-color: #F0EAEA; margin-top: 20px; border-radius: 10px; justify-content: center; display: flex;}
-div.picture-column{flex: 35%;  position: relative; top: 20%;}
-div.text-column{flex: 65%;}
+div.box {height: 300px;display: flex; padding: 20px}
+div.odd {background-color: #DCF4F4; margin-top: 20px; justify-content: center; display: flex;}
+div.even {background-color: #F0EAEA; margin-top: 20px; justify-content: center; display: flex;}
+div.first {border-top-left-radius: 15px; border-top-right-radius: 15px;}
+div.last {border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+div.picture-column{flex: 35%;  position: relative; display:flex; justify-content: center;}
+div.text-column{flex: 65%; position: relative; top: 15%}
 h1 {font: normal bolder 36px Carlito; margin: 0px;}
-h2 {margin-bottom: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-weight: bold;}
+h2 {margin-bottom: 0px; margin-top: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-weight: bold;}
 h4 {font: normal normal 24px Courier New,monospace; margin: 0px;}
 p  {font-family: IBMPlex;}
 ul {list-style-type: none;}
+ul.boxtext {padding-left: 0px;}
 li {font-family: IBMPlex; font-weight: bold; margin-bottom: 24px; font-size: 15; line-height: 24px;}
+img.anim {transition: transform 0.3s;}
+.anim:hover {transform: rotate(25deg) scale(1.2);}
 
 @font-face {font-family: IBMPlex; src:url('fonts/IBMPlexMono-Light.ttf') format('truetype');}
 @font-face {font-family: Carlito; src:url('fonts/Carlito-Regular.ttf') format('truetype');}
