@@ -1,7 +1,7 @@
 body {margin: 0px}
 div.content {width: 1100px; margin: auto;}
 div.box {height: 300px;display: flex; padding: 20px}
-div.footer {height: 24px; padding: 25px; padding-inline: 35px; background-color: #DCF4F4; border-top-right-radius: 15px; border-top-left-radius: 15px; margin-top: 30px; overflow: hidden;}
+div.footer {height: 24px; padding: 25px; padding-inline: 35px; background-color: #D6D6D6; border-top-right-radius: 15px; border-top-left-radius: 15px; margin-top: 30px; overflow: hidden;}
 div.odd {background-color: #DCF4F4; margin-top: 20px; justify-content: center; display: flex;}
 div.even {background-color: #F0EAEA; margin-top: 20px; justify-content: center; display: flex;}
 div.first {border-top-left-radius: 15px; border-top-right-radius: 15px;}
